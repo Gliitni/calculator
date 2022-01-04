@@ -8,7 +8,7 @@ const App =()=> {
     }
 
     const handleClick =(e)=>{
-        console.log("e",e)
+        // console.log("e",e)
         setResult(result.concat(e.target.name));
         
     }
