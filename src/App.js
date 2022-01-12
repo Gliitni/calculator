@@ -1,41 +1,19 @@
 import React from 'react';
-import Lcal from './Lcal';
+// import Lcal from './Lcal';
+// import Mcal from './Mcal';
 
 // import Demo from './Demo';
+import Calcu from './Calcu';
 
 const App =()=> {
-
-    // const [result, setResult] = useState('');
-
-    // const calculate =(e)=>{
-
-    //     try{
-    //     setResult(eval(result).toString());  
-    //     }
-    //     catch(err){
-    //         setResult("Error");
-        // }
-    // }
-
-    // const handleClick =(e)=>{
-    //     // console.log("e",e)
-    //     setResult(result.concat(e.target.name));
-        
-    // }
-
-    // const clear =(e)=>{
-    //     setResult('');  
-    // }
-    // const back =(e)=>{
-    //     setResult(result.slice(0, -1));  
-    // }
-    
 
     return(
         <div>
             {/* <Calcu2 /> */}
             {/* <Demo /> */}
-            <Lcal />
+            {/* <Mcal /> */}
+            {/* <Lcal /> */}
+            <Calcu />
         
         </div>
     )
